@@ -98,7 +98,7 @@ public class EventManager implements Listener {
 			var en = eo.getEnchantment();
 
 			if (ConfigManager.isEnchantDisabled(en)) {
-				// Lol
+				// Удали эту нахуй починки и на "Тут могла быть Удача"
 				eo.setEnchantment(Enchantment.MENDING);
 			}
 		}
