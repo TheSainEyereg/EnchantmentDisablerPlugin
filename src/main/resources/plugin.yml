@@ -1,0 +1,8 @@
+name: EnchantmentDisabler
+version: '${version}'
+main: ru.olejka.enchantmentdisabler.EnchantmentDisabler
+api-version: '1.20'
+prefix: OCED
+authors: [Olejka]
+description: Simple plugin for disabling enchantments
+website: https://olejka.ru/

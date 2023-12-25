@@ -1,0 +1,6 @@
+enchants:
+  - fortune
+
+messages:
+  restricted: This enchantment is restricted.
+  removed: Some enchantment was removed.
