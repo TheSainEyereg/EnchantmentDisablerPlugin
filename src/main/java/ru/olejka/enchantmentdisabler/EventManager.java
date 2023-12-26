@@ -98,8 +98,8 @@ public class EventManager implements Listener {
 			var en = eo.getEnchantment();
 
 			if (ConfigManager.isEnchantDisabled(en)) {
-				// Удали эту нахуй починки и на "Тут могла быть Удача"
-				eo.setEnchantment(Enchantment.MENDING);
+				// FIXME: Replace with allowed enchantments
+				eo.setEnchantment(Enchantment.VANISHING_CURSE);
 			}
 		}
 	}
